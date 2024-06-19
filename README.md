@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Finance Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Finance Management System is a web application developed using ReactJS and Spring Boot to assist individuals and businesses in managing their finances effectively. It provides tools for budget management, expense tracking, and spending analysis.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Budget Management:** Create, edit, and track multiple budgets. Set budget limits and monitor spending against these limits.
+  
+- **Expense Tracking and Recording:** Log daily expenses, categorize them, and maintain a historical record of transactions.
+  
+- **Spending Analysis:** Visualize spending patterns through interactive charts and graphs. Gain insights into spending habits.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React.js:** A JavaScript library for building user interfaces, ensuring a dynamic and responsive user experience.
+- **Material-UI:** A popular React UI framework for implementing Google's Material Design, providing modern and customizable UI components.
+- **Chart.js:** A flexible JavaScript charting library that allows for the creation of interactive and animated charts, integrated with React through `react-chartjs-2`.
 
-### `npm test`
+### Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Spring Boot:** A powerful, production-ready, and easy-to-use framework for creating stand-alone, production-grade Spring-based applications.
+- **MySQL:** An open-source relational database management system used for storing and managing the application’s data.
+- **RESTful APIs:** Implemented to handle the communication between the frontend and backend, enabling smooth data exchange and interaction.
 
-### `npm run build`
+### Documentation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project includes extensive documentation to help understand the system's design and implementation:
+- **Architectural Diagrams:** Visual representations of the system's architecture.
+- **Class Diagrams:** Depictions of the system's classes and their relationships.
+- **Domain Models:** Models showing the domain entities and their interactions.
+- **System Sequence Diagrams:** Diagrams detailing the sequence of operations within the system.
+- **System Diagrams:** High-level subsystem and interconnections.
+- **Use Cases:** Descriptions of the system's functionalities from an end-user perspective.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Motivation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The project aims to provide a user-friendly tool for effective financial management, inspired by the need for efficient personal and business finance solutions.
 
-### `npm run eject`
+## Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Node.js and npm:** Install from [Node.js official website](https://nodejs.org/).
+- **Java Development Kit (JDK):** Ensure Java 8 or higher is installed. Download from [Oracle's JDK download page](https://www.oracle.com/java/technologies/javase-downloads.html).
+- **Eclipse IDE for Enterprise Java and Web Developers:** Install from [Eclipse official website](https://www.eclipse.org/downloads/packages/).
+- **MySQL Workbench:** Download from [MySQL Workbench download page](https://dev.mysql.com/downloads/workbench/).
+- **VS Code:** Download from [VS Code official website](https://code.visualstudio.com/).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Clone the Repository
+Clone this repository to your local machine using Git:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+git clone https://github.com/your-username/finance-management-system.git
+```
