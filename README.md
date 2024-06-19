@@ -41,9 +41,7 @@ The project aims to provide a user-friendly tool for effective financial managem
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
-- **Node.js and npm:** Install from [Node.js official website](https://nodejs.org/).
-To verify the installation, run the following commands in your terminal:
-``node -v`` and ``npm -v``
+- **Node.js and npm:** Install from [Node.js official website](https://nodejs.org/). To verify the installation, run the following commands in your terminal: ``node -v`` and ``npm -v``.
 - **Java Development Kit (JDK):** Ensure Java 8 or higher is installed. Download from [Oracle's JDK download page](https://www.oracle.com/java/technologies/javase-downloads.html).
 - **Eclipse IDE for Enterprise Java and Web Developers:** Install from [Eclipse official website](https://www.eclipse.org/downloads/packages/).
 - **MySQL:** It's recommended to use MySQL Workbench for easier database management. Download it from [MySQL Workbench download page](https://dev.mysql.com/downloads/workbench/).
