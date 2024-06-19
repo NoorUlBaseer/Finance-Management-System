@@ -43,7 +43,7 @@ The project aims to provide a user-friendly tool for effective financial managem
 - **Node.js and npm:** Install from [Node.js official website](https://nodejs.org/).
 - **Java Development Kit (JDK):** Ensure Java 8 or higher is installed. Download from [Oracle's JDK download page](https://www.oracle.com/java/technologies/javase-downloads.html).
 - **Eclipse IDE for Enterprise Java and Web Developers:** Install from [Eclipse official website](https://www.eclipse.org/downloads/packages/).
-- **MySQL Workbench:** Download from [MySQL Workbench download page](https://dev.mysql.com/downloads/workbench/).
+- **MySQL:** It's recommended to use MySQL Workbench for easier database management. Download it from [MySQL Workbench download page](https://dev.mysql.com/downloads/workbench/).
 - **VS Code:** Download from [VS Code official website](https://code.visualstudio.com/).
 
 ## Installation
