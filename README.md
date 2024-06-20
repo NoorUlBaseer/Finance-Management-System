@@ -116,7 +116,7 @@ git clone https://github.com/NoorUlBaseer/Finance-Management-System
         `npm install @mui/material @emotion/react @emotion/styled`
 
         `npm install chart.js`
-             
+
         `npm install react-chartjs-2`
 
         `npm install chartjs-plugin-datalabels`
