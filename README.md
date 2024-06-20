@@ -90,7 +90,7 @@ git clone https://github.com/NoorUlBaseer/Finance-Management-System
    - The backend will start and run on port `9000`.
    - Verify the backend is running by checking the Eclipse console for logs indicating: `Tomcat started on port 9000` and `Started Application in [specific-seconds] seconds`.
 
-#### Notes:
+#### Note:
 - Ensure MySQL server is running and accessible with the credentials provided in `application.properties` file.
 
 ### Frontend Setup
@@ -126,5 +126,5 @@ git clone https://github.com/NoorUlBaseer/Finance-Management-System
 7. **Access Frontend:**
    - The frontend application will start, and you can access it by opening a web browser and navigating to `http://localhost:3000`.
 
-#### Note
+#### Note:
 - Ensure there are no errors in the terminal during the setup.
