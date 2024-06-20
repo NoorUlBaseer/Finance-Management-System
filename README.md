@@ -113,10 +113,13 @@ git clone https://github.com/NoorUlBaseer/Finance-Management-System
 5. **Install Material-UI and Chart.js:**
    - Ensure the terminal in VS Code is open at the directory of the cloned repository.
    - Run the following commands to install Material-UI and Chart.js:
-     `npm install @mui/material @emotion/react @emotion/styled`
-     `npm install chart.js`
-     `npm install react-chartjs-2`
-     `npm install chartjs-plugin-datalabels`
+        `npm install @mui/material @emotion/react @emotion/styled`
+
+        `npm install chart.js`
+             
+        `npm install react-chartjs-2`
+
+        `npm install chartjs-plugin-datalabels`
    - Ensure all commands are completely executed and everything is installed on your system.
 
 6. **Start the Frontend Application:**
