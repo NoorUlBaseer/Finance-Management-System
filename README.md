@@ -24,7 +24,7 @@ The Finance Management System is a web application developed using ReactJS and S
 - **MySQL:** An open-source relational database management system used for storing and managing the application’s data.
 - **RESTful APIs:** Implemented to handle the communication between the frontend and backend, enabling smooth data exchange and interaction.
 
-### Documentation
+## Documentation
 
 This project includes extensive documentation to help understand the system's design and implementation:
 - **Architectural Diagrams:** Visual representations of the system's architecture.
@@ -132,3 +132,7 @@ git clone https://github.com/NoorUlBaseer/Finance-Management-System
 
 #### Note:
 - Ensure there are no errors in the terminal during the setup.
+
+## Contributing
+Contributions are welcome! Please feel free to fork the repository and submit pull requests.
+ 
