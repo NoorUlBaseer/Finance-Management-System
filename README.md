@@ -55,5 +55,38 @@ Clone this repository to your local machine using Git:
 ```
 git clone https://github.com/NoorUlBaseer/Finance-Management-System
 ```
-### Frontend Setup
+### Backend Setup
 
+1. **Open Eclipse IDE:**
+   - Launch `Eclipse IDE for Enterprise Java and Web Developers`.
+
+2. **Import Project:**
+   - Select `File` > `Open Projects from File System...`.
+   - In the dialog box, click the `Directory` button and browse to the cloned repository folder.
+   - Select the folder named `SpringBoot` and click `Select Folder`.
+
+3. **Project in Workspace:**
+   - The backend project will now appear in the `Workspace` (Package Explorer) on the left side of Eclipse.
+
+4. **Update Maven Project:**
+   - Right-click the opened project in the `Workspace`.
+   - Select `Maven` > `Update Project...`.
+
+5. **Update Database Configurations:**
+   - Open the `application.properties` file located in `src/main/resources`.
+   - Update the database configurations as per your local MySQL setup:
+    `spring.datasource.url=jdbc:mysql://localhost:3306/[your-database-name]`
+    `spring.datasource.username=[your-username]`
+    `spring.datasource.password=[your-password]`
+
+6. **Run Backend Application:**
+   - Navigate to the main `Application.java` file in the `src/main/java` directory.
+   - Right-click on the `Application.java` file.
+   - Select `Run As` > `Java Application`.
+
+7. **Access Backend:**
+   - The backend will start and run on port `9000`.
+   - Verify the backend is running by checking the Eclipse console for logs indicating: `Tomcat started on port 9000` and `Started Application in [specific-seconds] seconds`.
+
+#### Notes:
+- Ensure MySQL server is running and accessible with the credentials provided in `application.properties` file.
