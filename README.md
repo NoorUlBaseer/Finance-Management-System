@@ -75,11 +75,11 @@ git clone https://github.com/NoorUlBaseer/Finance-Management-System
 5. **Update Database Configurations:**
    - Open the `application.properties` file located in `src/main/resources`.
    - Update the database configurations as per your local MySQL setup:
-    `spring.datasource.url=jdbc:mysql://localhost:3306/[your-database-name]`
+        `spring.datasource.url=jdbc:mysql://localhost:3306/[your-database-name]`
     
-    `spring.datasource.username=[your-username]`
+        `spring.datasource.username=[your-username]`
     
-    `spring.datasource.password=[your-password]`
+        `spring.datasource.password=[your-password]`
 
 6. **Run Backend Application:**
    - Navigate to the main `Application.java` file in the `src/main/java` directory.
