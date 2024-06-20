@@ -92,3 +92,39 @@ git clone https://github.com/NoorUlBaseer/Finance-Management-System
 
 #### Notes:
 - Ensure MySQL server is running and accessible with the credentials provided in `application.properties` file.
+
+### Frontend Setup
+
+1. **Open VS Code:**
+   - Launch `Visual Studio Code`.
+
+2. **Open Cloned Repository:**
+   - Click on `File` > `Open Folder...`.
+   - Browse to the directory where you cloned the repository and select it to open in VS Code.
+
+3. **Open Terminal in VS Code:**
+   - Once the repository is open, open a terminal within VS Code by navigating to `Terminal` > `New Terminal`.
+
+4. **Install Dependencies:**
+   - Ensure the terminal in VS Code is open at the directory of the cloned repository.
+   - Run the following command to install the necessary dependencies:
+     `npm install`
+
+5. **Install Material-UI and Chart.js:**
+   - Ensure the terminal in VS Code is open at the directory of the cloned repository.
+   - Run the following commands to install Material-UI and Chart.js:
+     `npm install @mui/material @emotion/react @emotion/styled`
+     `npm install chart.js`
+     `npm install react-chartjs-2`
+     `npm install chartjs-plugin-datalabels`
+   - Ensure all commands are completely executed and everything is installed on your system.
+
+6. **Start the Frontend Application:**
+   - In the terminal, run the following command to start the development server:
+    `npm start`
+
+7. **Access Frontend:**
+   - The frontend application will start, and you can access it by opening a web browser and navigating to `http://localhost:3000`.
+
+#### Note
+- Ensure there are no errors in the terminal during the setup.
